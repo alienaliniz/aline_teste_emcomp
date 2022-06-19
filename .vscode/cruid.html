@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CRUID.css">
+    <script src="crud.js"> </script>
+  <title>cruid</title>
+</head>
+<body>
+    <form action="">
+        <input type="button" value="cadastrar" onclick="criarusuario()">
+        <input type="button" value="excluir" onclick="excluir()">
+        <input type="button" value="editar" onclick="editar()"><br>
+        <input type="number" id="index" placeholder="Index">
+        <input type="text" id="nome" placeholder="Nome">    
+        <input type="number" id="idade" placeholder="Idade">
+        <input type="text" id="formacao" placeholder="Formação">
+        <input type="text" id="genero" placeholder="Gênero">
+    </form>
+    <table id="tabela">
+    <thead><tr><th>index</th></th><th>nome</th><th>idade</th><th>formação</th><th>genero</th></tr></thead>
+    <tbody></tbody> 
+    </table>
+</body>
+</html>
